@@ -78,3 +78,62 @@ li{
   height: 50%;
   opacity: 0.7;
 }
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display:none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 20px;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: #fff;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson img{
+  width:280px;
+  height:190px;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #000;
+}
+
